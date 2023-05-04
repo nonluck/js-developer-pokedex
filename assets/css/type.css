@@ -13,7 +13,7 @@
     background-color: rgba(155, 45, 165, 0.711);
 }
 .normal{
-    background-color: rgba(237, 181, 128, 0.729);
+    background-color: rgba(189, 135, 84, 0.841);
 }
 .fighting{
     background-color: rgba(205, 64, 64, 0.831);
@@ -22,7 +22,7 @@
     background-color: rgba(128, 128, 128, 0.761);
 }
 .electric{
-    background-color: rgba(242, 202, 2, 0.823);
+    background-color: rgba(204, 171, 3, 0.823);
 }
 .bug{
     background-color: rgba(137, 222, 10, 0.77);
@@ -37,13 +37,13 @@
     background-color: rgba(138, 77, 11, 0.864);
 }
 .psychic{
-    background-color: rgba(227, 26, 167, 0.716);
+    background-color: rgba(247, 22, 97, 0.716);
 }
 .ground{
     background-color: rgba(226, 94, 23, 0.752);
 }
 .fairy{
-    background-color: rgba(243, 129, 148, 0.657);
+    background-color: rgba(249, 92, 145, 0.657);
 }
 .dark{
     background-color: rgba(30, 30, 30, 0.801);
