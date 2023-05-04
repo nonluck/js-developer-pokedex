@@ -6,7 +6,8 @@
 
 body {
     
-    background-image: url("/assets/imgs/background.jpg");
+    background-image: url("assets/imgs/background.jpg");
+    background-color: rgba(255, 0, 0, 0.809);
    
     
 }
