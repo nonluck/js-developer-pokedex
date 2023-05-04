@@ -29,7 +29,6 @@ function randomPokemon(){
         randonsNum[j] = Math.floor(Math.random() * (pokemon_limit - 1) ) + 1;
         getDataContentRandom(j, randonsNum[j]);
     }
-    console.log(randonsNum);
 }
 
 
