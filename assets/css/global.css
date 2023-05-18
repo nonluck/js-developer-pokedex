@@ -5,8 +5,7 @@
 }
 
 body {
-   
-    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/070/315/small/geometric-low-poly-graphic-repeat-pattern-background-free-vector.jpg");
+   background-image: url("/assets/imgs/background.jpg");
     background-color: rgba(255, 0, 0, 0.809);
    
     

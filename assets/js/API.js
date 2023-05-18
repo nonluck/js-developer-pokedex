@@ -138,6 +138,7 @@ function setShinyPokemon(a) {
         classes.remove("shiny");
         classes.add("non-shiny");
         return;
+        
     } else if ("non-shiny" == classes[4]) {
         const top = document.querySelector(`.${classes[2]}img`)
         top.style = "background-color:rgba(200, 200, 200, 0.645);";

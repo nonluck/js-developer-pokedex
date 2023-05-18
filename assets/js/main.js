@@ -19,12 +19,38 @@ function changeNumberPage(num){
    
 }
 //faz a requisição aleatória
+const numberGeration = () => {
+    return randonsNum[j] = Math.floor(Math.random() * (pokemon_limit - 1) ) + 1;
+}
+
 function randomPokemon(){
+    const lista = [];
+    let count = 0;
+    while(lista.length!=32){
+        const num  = Math.floor(Math.random() * (pokemon_limit - 1) ) + 1;
+        if(!lista.includes(num)){
+            count +=1;
+            getDataContentRandom(count, num);
+            lista.push(num)
+        }
+    }
+    /*
+
     var randonsNum = [];
     for(let j = 1; j < 33;j++){
-        randonsNum[j] = Math.floor(Math.random() * (pokemon_limit - 1) ) + 1;
-        getDataContentRandom(j, randonsNum[j]);
-    }
+        let flag=true;
+        while(flag){
+             const testNum = Math.floor(Math.random() * (pokemon_limit - 1) ) + 1;
+             console.log(testNum)
+             if(randonsNum.find(testNum)){
+                randonsNum[j-1]=(testNum);
+                console.log(testNum)
+                
+                flag=false;
+             }
+
+        }
+    }*/
 }
 
 //faz a requisição linear
